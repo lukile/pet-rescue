@@ -8,7 +8,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fitsSystemWindows="true"
-            android:theme="@color/colorPrimary"/>
+            android:theme="@color/colorNavMenu"/>
 
     <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_main"
@@ -16,6 +16,6 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:popupTheme="@color/colorPrimary" />
+            app:popupTheme="@color/colorNavMenu" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -4,7 +4,7 @@
         android:id="@+id/nav_header"
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorNavMenu"
         android:clickable="true"
         android:focusable="true"
         android:foreground="?attr/selectableItemBackgroundBorderless"
@@ -12,10 +12,20 @@
         android:orientation="vertical"
         android:padding="16dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:id="@+id/manual"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/question_mark"/>
 
-    <ImageView
-            android:id="@+id/nav_header_imageView"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:src="@mipmap/pet_icon" />
+        <ImageView
+                android:id="@+id/nav_header_imageView"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@mipmap/pet_icon" />
+    </RelativeLayout>
 </LinearLayout>
